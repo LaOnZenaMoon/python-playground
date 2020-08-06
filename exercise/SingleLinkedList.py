@@ -25,6 +25,8 @@ class SingleLinkedList:
         nodePrevious.setNext(nodeNext)
         self.size = self.size - 1
 
+        return nodeRemove
+
     def get(self, indexRetrieve):
         nodeReturn = self.nodeHead
         for index in range(indexRetrieve + 1):
