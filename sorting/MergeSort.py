@@ -4,7 +4,7 @@ import random
 class MergeSort:
 
     def perform(self, target):
-        if len(target) == 1:
+        if len(target) <= 1:
             return target
 
         # Decomposition

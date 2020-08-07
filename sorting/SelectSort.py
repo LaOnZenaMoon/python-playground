@@ -4,7 +4,7 @@ import random
 class SelectSort:
 
     def perform(self, target):
-        if len(target) == 1:
+        if len(target) <= 1:
             return target
 
         for index1 in range(len(target)-1):

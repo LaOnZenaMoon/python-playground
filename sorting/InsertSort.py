@@ -4,7 +4,7 @@ import random
 class InsertSort:
 
     def perform(self, target):
-        if len(target) == 1:
+        if len(target) <= 1:
             return target
 
         for index in range(1, len(target)):
