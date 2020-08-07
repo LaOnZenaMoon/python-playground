@@ -44,5 +44,5 @@ for index in range(0, 10):
     randomlist.append(random.randrange(0, 100))
 print(randomlist)
 
-mergeSortedRandomList = mergeSort.perform(randomlist)
-print(mergeSortedRandomList)
+sortedList = mergeSort.perform(randomlist)
+print(sortedList)
