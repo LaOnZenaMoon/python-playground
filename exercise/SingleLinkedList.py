@@ -2,6 +2,7 @@ from Node import Node
 
 
 class SingleLinkedList:
+
     nodeHead = ''
     nodeTail = ''
     size = 0
