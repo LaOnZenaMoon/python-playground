@@ -7,9 +7,10 @@ class BubbleSort:
         if len(target) <= 1:
             return target
 
+        # iteration for target size
         for index1 in range(1, len(target)):
             for index2 in range(0, len(target)-1):
-                if(target[index2] > target[index2+1]):
+                if(target[index2] < target[index2+1]):
                     temp = target[index2]
                     target[index2] = target[index2+1]
                     target[index2+1] = temp
