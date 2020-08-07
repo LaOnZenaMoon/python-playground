@@ -11,6 +11,7 @@ class InsertSort:
             temp = target[index]
             cursor = index - 1
 
+            # ">": desc, "<": asc
             while (cursor >= 0) and (target[cursor] > temp):
                 target[cursor + 1] = target[cursor]
                 cursor -= 1
