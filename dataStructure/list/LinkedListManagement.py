@@ -37,6 +37,16 @@ class LinkedListManagement:
                 else:
                     node = node.next
 
+    def search(self, data):
+        node = self.head
+
+        while node:
+            if node.data == data:
+                return node
+            else:
+                node = node.next
+
+        return None
 
     def desc(self):
         node = self.head
