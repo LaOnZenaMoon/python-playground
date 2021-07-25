@@ -18,7 +18,7 @@ def dijkstra(graph, start):
             distance = current_distance + weight
 
             if distance < distance_dict[adjacent_node]:
-                distance_dict[adjacent_node] = current_node
+                distance_dict[adjacent_node] = distance
                 heapq.heappush(queue, [distance, adjacent_node])
 
     return distance_dict
